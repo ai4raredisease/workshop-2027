@@ -96,3 +96,65 @@ a.button{background:var(--accent);color:white}
 :lang(ja) .eyebrow{letter-spacing:.05em}
 @media(max-width:1100px){.header-inner{flex-direction:column;align-items:flex-start;gap:8px}.overview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}html{scroll-padding-top:10rem}}
 @media(max-width:640px){.overview-grid,.keynote-grid{grid-template-columns:1fr}.day-summary{padding:20px 18px}html{scroll-padding-top:1rem}}
+
+/* Institutional marks retain their source proportions and artwork. */
+.institution-logo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+}
+.funding-logos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 720px;
+  gap: 24px;
+  margin: 0 0 28px;
+}
+.funding-logo-slot {
+  height: 120px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+.logo-dfg { max-width: min(100%, 255px); max-height: 88px; }
+.logo-jsps { max-width: min(100%, 285px); max-height: 88px; }
+.institution-section { margin-top: 40px; }
+.institution-section > h3 { margin-bottom: 24px; }
+.institution-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+.institution-item { margin: 0; min-width: 0; }
+.logo-slot {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.logo-ukb { max-width: min(100%, 260px); }
+.logo-dbcls { max-width: min(100%, 210px); max-height: 82px; }
+.logo-charite { max-width: min(100%, 220px); max-height: 82px; }
+.institution-item figcaption {
+  margin-top: 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: .9rem;
+}
+.logo-nagasaki { max-width: min(100%, 260px); }
+.participating-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; max-width: 736px; }
+.participating-institution { max-width: 340px; }
+.logo-keio { max-width: min(100%, 250px); max-height: 82px; }
+@media (max-width: 640px) {
+  .institution-grid { grid-template-columns: 1fr; gap: 28px; }
+  .institution-item { width: 100%; max-width: 340px; margin-inline: auto; }
+  .funding-logos, .participating-grid { grid-template-columns: 1fr; }
+  .funding-logos { max-width: 360px; gap: 16px; }
+  .participating-institution { margin-inline: 0; }
+}
