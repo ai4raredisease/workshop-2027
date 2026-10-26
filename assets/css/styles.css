@@ -167,8 +167,8 @@ a.button{background:var(--accent);color:white}
 .workshop-identity { margin-bottom: 14px; color: var(--accent); font-size: .85rem; font-weight: 700; line-height: 1.6; text-wrap: pretty; }
 .support-label { margin-bottom: 10px; font-size: .8rem; font-weight: 600; color: var(--muted); }
 .scientific-collaboration { margin-bottom: 20px; }
-.collaboration-logo-slot { display: flex; align-items: center; justify-content: center; width: 160px; max-width: 100%; height: 110px; padding: 10px; background: white; }
-.logo-ga4gh { max-height: 90px; }
+.collaboration-logo-slot { display: flex; align-items: center; justify-content: center; width: 280px; max-width: 100%; height: 110px; padding: 10px; background: white; }
+.logo-ga4gh { width: 100%; max-height: 90px; }
 .logo-bsi { width: 210px; max-width: 100%; max-height: 82px; }
 
 /* Named contacts share a compact, responsive layout. */
