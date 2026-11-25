@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" fill="none" stroke="#fff">
+  <!-- Decorative motif adapted from the AI4RD flyer: hexagons and a node network forming a profile. -->
+  <g stroke-opacity=".16" stroke-width="1.5">
+    <path d="M430 20l35 20v40l-35 20-35-20V40z"/>
+    <path d="M500 60l35 20v40l-35 20-35-20V80z"/>
+    <path d="M570 20l35 20v40l-35 20-35-20V40z"/>
+    <path d="M60 420l35 20v40l-35 20-35-20v-40z"/>
+    <path d="M130 460l35 20v40l-35 20-35-20v-40z"/>
+    <path d="M550 400l35 20v40l-35 20-35-20v-40z"/>
+  </g>
+  <g stroke-opacity=".55" stroke-width="1.4">
+    <polyline points="250,40 330,60 390,110 420,170 430,230 465,280 450,300 470,330 450,350 455,380 435,400 440,430 410,455 360,460 330,520"/>
+    <polyline points="250,40 300,150 330,60"/>
+    <polyline points="300,150 390,110 360,240 420,170"/>
+    <polyline points="300,150 360,240 430,230"/>
+    <polyline points="360,240 465,280"/>
+    <polyline points="360,240 400,320 450,300"/>
+    <polyline points="400,320 470,330"/>
+    <polyline points="400,320 450,350 455,380"/>
+    <polyline points="400,320 380,400 435,400"/>
+    <polyline points="380,400 440,430"/>
+    <polyline points="380,400 410,455"/>
+    <polyline points="380,400 290,420 360,460"/>
+    <polyline points="290,420 330,520"/>
+    <polyline points="300,150 230,220 360,240"/>
+    <polyline points="230,220 290,320 400,320"/>
+    <polyline points="290,320 290,420"/>
+    <polyline points="290,320 360,240"/>
+    <polyline points="230,220 180,300 290,320"/>
+  </g>
+  <g fill="#fff" stroke="none">
+    <circle cx="250" cy="40" r="5" fill-opacity=".8"/>
+    <circle cx="330" cy="60" r="4" fill-opacity=".8"/>
+    <circle cx="390" cy="110" r="5" fill-opacity=".8"/>
+    <circle cx="420" cy="170" r="4" fill-opacity=".8"/>
+    <circle cx="430" cy="230" r="5" fill-opacity=".8"/>
+    <circle cx="465" cy="280" r="4" fill-opacity=".8"/>
+    <circle cx="450" cy="300" r="3" fill-opacity=".8"/>
+    <circle cx="470" cy="330" r="4" fill-opacity=".8"/>
+    <circle cx="450" cy="350" r="3" fill-opacity=".8"/>
+    <circle cx="455" cy="380" r="4" fill-opacity=".8"/>
+    <circle cx="435" cy="400" r="3" fill-opacity=".8"/>
+    <circle cx="440" cy="430" r="4" fill-opacity=".8"/>
+    <circle cx="410" cy="455" r="4" fill-opacity=".8"/>
+    <circle cx="360" cy="460" r="5" fill-opacity=".8"/>
+    <circle cx="330" cy="520" r="4" fill-opacity=".8"/>
+    <circle cx="300" cy="150" r="6" fill-opacity=".85"/>
+    <circle cx="360" cy="240" r="9" fill-opacity=".9"/>
+    <circle cx="400" cy="320" r="6" fill-opacity=".85"/>
+    <circle cx="380" cy="400" r="5" fill-opacity=".85"/>
+    <circle cx="290" cy="420" r="5" fill-opacity=".8"/>
+    <circle cx="230" cy="220" r="5" fill-opacity=".8"/>
+    <circle cx="290" cy="320" r="5" fill-opacity=".8"/>
+    <circle cx="180" cy="300" r="9" fill-opacity=".9"/>
+  </g>
+</svg>
